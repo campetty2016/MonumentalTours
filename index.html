@@ -1,147 +1,354 @@
 <!--
-
-  Author: Candace Petty
-  Date: 4/5/16
-  File Name: index.html
-
+    Author: Candace Petty
+    File Name: index.html
+    Date: 10/12/15
 -->
 
+<!DOCTYPE html>
 <html>
 
-  <head>
+    <head lang="en">
 
-    <!-- Title of Web Page -->
-    <title>Dev Workshop Home</title>
+		<!-- Meta-Data -->
+        <meta charset="UTF-8">
 
-    <!-- Links to Main Stylesheet -->
-    <link rel="stylesheet" href="css/style.css" />
+        <!-- Title of Webpage -->
+        <title>Monumental Tours</title>
+		
+        <!-- Links to Stylesheet -->
+        <link rel="stylesheet" href="css/style.css"/>
+		
+		<!-- Favicon Code -->
+        <link rel="icon" type="img/jpg" href="img/Cloud.jpg">
+		
+		<!--  Links to Google Fonts-->
+		<link href='https://fonts.googleapis.com/css?family=Italianno' rel='stylesheet' type='text/css'>
+		
+		 <!-- Links to Font Awesome -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-    <!-- Links to Font Awesome -->
-    <link rel="stylesheet" href="css/font-awesome-4.5.0/css/font-awesome.min.css" />
 
-    <!-- Links to SweetAlert -->
-    <link rel="stylesheet" href="css/sweetalert.css" />
+    </head>
 
-    <!-- Links to Google Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <body>
 
-  </head>
+        <!-- Navigation -->
+        <nav>
+		
+			<!-- Navigation Container -->
+			<div class="navContainer Content">
+			
+				<!-- Links to Home Section -->
+				<a id="Home" href="#Home">Home</a>
 
-  <body>
+				<!-- Links to About Section -->
+				<a id="About" href="#About">About</a>
 
-    <header>
+				<!-- Links to Destinations Section -->
+				<a id="Destinations" href="#Destinations">Destinations</a>
+					
+				<!-- Links to Deals Section -->
+				<a id="Deals" href="#Deals">Deals</a>
 
-      <!-- Company Name -->
-      <h1>Dev Workshop Speaker Submission</h1>
+				<!-- Links to Contact Section -->
+				<a id="Contact" href="#Contact">Contact</a>
+				
+			</div>	
 
-      <!-- Contains Links for Log In, Settings, and Sign Up -->
-      <div class="LogInOut-Container">
+        </nav>
 
-        <span class="LogIn">Login</span><span class="LogOut">Logout</span> <span class="SignUp">Sign Up</span> <span class="settings"><i class="fa fa-cog"></i></span>
+        <!-- Home Section -->
+        <section id="HomeView">
 
-      </div>
+			<!-- Contains Logo -->
+            <div id="Logo">
 
-    </header>
+                <!-- Logo -->
+                <h1>Mo<span>n</span>u<span>m</span>e<span>n</span>t<span>a</span>l <span>T</span>o<span>u</span>r<span>s</span></h1>
+				
+				<!-- Slogan -->
+				<h2 align="center">Co<span>m</span>e<span> e</span>x<span>p</span>l<span>o</span>r<span>e</span> w<span>i</span>t<span>h</span> u<span>s</span>!</h2>
+            
+			</div>
 
-    <!-- Content-Wrapper -->
-    <div class="Content-Wrapper">
+        </section>
 
-      <!-- Contains Welcome Information -->
-      <div class="Welcome">
+        <!-- About Section -->
+        <section id="AboutView" class="Smaller">
+		
+			<!-- Content for About Section -->
+			<div class="Content">
+			
+				<!-- Heading for About Section -->
+				<h2>Ab<span class="blue">o</span>u<span class="blue">t</span></h2>
+				
+				<hr>
+				
+				<!-- Paragraph for About Section -->
+				<p class="AboutP">Monumental Tours was founded by a small group of people who loved to travel and see the world. Established in the 1990s, it has become a beloved method of sighseeing for tourists and has become a tradition during family vacations. Through exploring with us people both learn about the history of the United States Monuments while having fun. If you want your vacation to be filled with history and fun, come book your trip today and explore our package deals!</p>
+				
+			</div>
 
-        <!-- Main Heading and Paragraph for Content -->
-        <h2>Welcome</h2>
-        <hr />
-        <p>Please Login.</p>
+        </section>
 
-      </div>
+        <!-- Destinations Section -->
+        <section id="DestinationsView">
+		
+			<!-- Content for Destinations Section -->
+            <div class="Content">
 
-    </div>
+                <!-- Heading for Destinations Section -->
+                <h2>Destinations</h2>
+				
+				<!-- Subheading for Destinations Section -->
+				<h3>Travel to a vast amount of various locations to see monuments!</h3>
+				
+				<!-- Column #1 in Destinations Section -->
+				<div class="column">
+				
+					<!-- Statue of Liberty Image -->
+					<img class="roundImage" src="img/Statue of Liberty.jpg">
+					
+					<!-- Caption for Statue of Liberty Image -->
+					<div class="caption"><p> Statue of Liberty</p></div>
+					
+				</div>	
 
-    <!-- Modal for User Account Settings -->
-    <div class="SettingsModal">
+				<!-- Column #2 in Destinations Section -->
+				<div class="column">
+				
+					<!-- St Louis Arch Image -->
+					<img class="roundImage" src="img/St Louis Arch.jpg">
+					
+					<!-- Caption for St Louis Arch Image -->
+					<div class="caption"><p> St Louis Arch</p></div>
+				
+				</div>	
+				
+				<!-- Column #3 in Destinations Section -->
+				<div class="column">
+				
+					<!-- White House Image -->
+					<img class="roundImage" src="img/White House.jpg">
+					
+					<!-- Caption for White House Image -->
+					<div class="caption"><p> The White House</p></div>
+					
+				</div>	
+				
+				<!-- Column #4 in Destinations Section -->
+				<div class="column">
+				
+					<!-- Mt Rushmore Image -->
+					<img class="roundImage" src="img/Mt Rushmore.jpg">
+					
+					<!-- Caption for Mt Rushmore Image -->
+					<div class="caption"><p> Mt Rushmore</p></div>
+				
+				</div>	
+				
+            </div>
 
-      <!-- Contains Settings Form -->
-      <form class="SettingsForm">
+        </section>
+		
+		<!-- Deals Section -->
+        <section id="DealsView" class="Smaller">
+		
+			<!-- Content for Deals Section -->
+            <div class="Content">
 
-        <!-- Heading for Settings Form -->
-        <h2>User Account Settings</h2>
+                <!-- Heading for Deals Section -->
+                <h2>De<span class="blue">a</span>l<span class="blue">s</span></h2>
+				
+				<!-- Subheading for Deals Section -->
+				<h3>We currently offer Two Package Deals!</h3>
+				<hr>
+				
+				<!-- Package Deals for Deals Section -->
+				<div class="PackageDeals">
+				
+					<!-- Package Deal #1-->
+					<div>
+					
+						<!-- Heading for Package Deal #1 -->
+						<p><b>$200</b> - Basic Package includes:</p>
+						
+							<!-- List for Package Deal #1 -->
+							<ul>
+							
+								<li>Statue of Liberty</li>
+								<li>St. Louis Arch</li>
+								<li>Trip to Chicago</li>
+								<li>Lodging</li>
+							
+							</ul>
+							
+					</div>
 
-        <!-- Close Button -->
-        <span class="exitModal"><i class="fa fa-times-circle fa-2x"></i></span>
+					<!-- Package Deal #2 -->
+					<div>
+					
+						<!-- Heading for Package Deal #2 -->
+						<p><b>$500</b>- Special Package includes:</p>
+						
+							<!-- List for Package Deal #2 -->
+							<ul>
+							
+								<li>Grand Canyon</li>
+								<li>Lincoln Presidential Memorial</li>
+								<li>Parthenon</li>
+								<li>The White House</li>
+								<li>Lodging</li>
+								
+							</ul>
+					</div>		
 
-        <hr />
+				</div>
+				
+			</div>
 
-        <!-- Message for Settings Form -->
-        <p>Below is your current account information, if you would you like you can change it by clicking on the Edit Button.</p>
+        </section>
 
-        <!-- Username Label and Input Box -->
-        <label>Username:</label>
-        <input id="EditUName" type="text" placeholder="Username" readonly="true" />
+        <!-- Contact Section -->
+        <section id="ContactView">
 
-        <!-- Password Label and Input Box -->
-        <label>Password:</label>
-        <input id="EditPWord" type="text" placeholder="Password" readonly="true" />
+			<!-- Content for Contact Section -->
+            <div class="Content">
 
-        <!-- FirstName Label and Input Box -->
-        <label>First Name:</label>
-        <input id="EditFName" type="text" placeholder="First Name" readonly="true" />
+				<!-- Heading for Contact Section -->
+				<h2>Contact</h2>
+				
+				<hr>
 
-        <!-- LastName Label and Input Box -->
-        <label>Last Name:</label>
-        <input id="EditLName" type="text" placeholder="Last Name" readonly="true" />
+				<br />
 
-        <!-- Edit Button -->
-        <input id="Edit" type="submit" value="Edit" />
+				<!-- Subheading for Contact Section -->
+				<h3 id="Message">Email us if you have questions by filling out the form below!</h3>
 
-      </form>
+				<!-- Contact Form -->
+				<form action="mailto:monumentaltours@monuments.com" method="post" enctype="text/plain">
 
-    </div>
+					<!-- Fieldset for Contact Form -->
+					<fieldset>
+					
+						<!-- Table for Contact Form -->
+						<table>
 
-    <!-- Modal for Login  -->
-    <div class="LoginModal">
+							<tr>
 
-      <!-- Contains Login Form -->
-      <form class="LogInForm">
+								<!-- Label for First Name Input Box -->
+								<td><label>First Name:</label><td>
 
-        <!-- Heading for Login Form -->
-        <h2>Log In</h2>
+								<!-- First Name Input Box -->
+								<td><input type="text" name="first_name" required="required" placeholder="Enter Your First Name"></td>
 
-        <!-- Close Button -->
-        <span class="exitModal"><i class="fa fa-times-circle fa-2x"></i></span>
+							</tr>
 
-        <hr />
+							<tr>
 
-        <!-- Message for Login Form -->
-        <p>Please enter your information and Login.</p>
+								<!-- Label for Last Name Input Box -->
+								<td><label>Last Name:</label><td>
 
-        <!-- Username Label and Input Box -->
-        <label>Username:</label>
-        <input id="UName" type="text" placeholder="Username" />
+								<!-- Last Name Input Box -->
+								<td><input type="text"  name="last_name" required="required" placeholder="Enter Your Last Name"></td>
 
-        <!-- Password Label and Input Box -->
-        <label>Password:</label>
-        <input id="PWord" type="password" placeholder="Password" />
+							</tr>
 
-        <!-- Submit Button for Login Form -->
-        <input id="LoginSubmit" type="submit" value="Log In" />
+							<tr>
 
-      </form>
+								<!-- Label for Email Input Box -->
+								<td><label>Email:</label><td>
 
-    </div>
+								<!-- Email Input Box -->
+								<td><input type="text"  name="email" required="required" placeholder="Enter Your Email Address"></td>
 
-    <!-- Links to JQuery -->
-    <script src="vendor/jquery.min.js"></script>
+							</tr>
 
-    <!-- Links to SweetAlert -->
-    <script src="vendor/sweetalert.min.js"></script>
+							<tr>
 
-    <!-- Links to "app.js" -->
-    <script src="js/app.js"></script>
+								<!-- Label for Subject Input Box -->
+								<td><label>Subject:</label><td>
 
-    <!-- Links to "service.js" -->
-    <script src="js/service.js"></script>
+								<!--Subject Input Box -->
+								<td><input type="text" required="required" name="subject" placeholder="Enter the Subject of Email"></td>
 
-  </body>
+							</tr>
+
+							<tr>
+
+								<!-- Label for Message Box -->
+								<td><label>Message:</label><td>
+
+								<!-- Message Box -->
+								<td><textarea required="required" name="message" placeholder="Enter Your Message"></textarea></td>
+
+							</tr>
+
+						</table>
+
+						<!-- Send Email Button -->
+						<input id="submit" type="submit" value="Send Email">
+
+					</fieldset>
+
+				</form>
+
+				<!-- Contact Information -->
+				<div class="ContactInfo">
+
+					<!-- Heading for Contact Information-->
+					<h2>Contact Information</h2>
+					
+					<hr>
+
+					<!-- Phone Number and Phone Symbol -->
+					<h4><i class="fa fa-phone"> </i>Phone Number: (675) 325 - 6343 </h4>
+
+					<!-- Location and Home Symbol -->
+					<h4><i class="fa fa-home"> </i>Location: 452 Rock St Normal, Indiana</h4>
+
+					<!-- Email Address and Envelope Symbol -->
+					<h4><i class="fa fa-envelope 2x"> </i>Email: <a href="mailto:monumentaltours@monuments.com">monumentaltours@monuments.com</a></h4>
+
+				</div>
+
+				<!-- Sitemap -->
+				<div class="sitemap">
+
+					<!-- Minature Version of Logo with Copyright Symbol -->
+					<h5>&copy; <span id="First">M</span>o<span>n</span>u<span>m</span>e<span>n</span>t<span>a</span>l <span>T</span>o<span>u</span>r<span>s</span></h5>
+					
+					<nav>
+				
+						<!-- Links to Home Section -->
+						<a href="#Home">Home</a>
+
+						<!-- Links to About Section -->
+						<a href="#About">About</a>
+
+						<!-- Links to Destinations Section -->
+						<a href="#Destinations">Destinations</a>
+							
+						<!-- Links to Deals Section -->
+						<a href="#Deals">Deals</a>
+
+						<!-- Links to Contact Information Section -->
+						<a href="#Contact">Contact</a>
+
+					</nav>
+
+				</div>
+				
+			</div>	
+
+        </section>
+
+        <!-- Links to JQuery -->
+        <script src="vendor/jquery-2.1.3.min.js"></script>
+
+        <!-- Links to "main.js" -->
+        <script src="js/main.js"></script>
+
+    </body>
 
 </html>
