@@ -1,0 +1,147 @@
+<!--
+
+  Author: Candace Petty
+  Date: 4/5/16
+  File Name: index.html
+
+-->
+
+<html>
+
+  <head>
+
+    <!-- Title of Web Page -->
+    <title>Dev Workshop Home</title>
+
+    <!-- Links to Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Links to Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome-4.5.0/css/font-awesome.min.css" />
+
+    <!-- Links to SweetAlert -->
+    <link rel="stylesheet" href="css/sweetalert.css" />
+
+    <!-- Links to Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+  </head>
+
+  <body>
+
+    <header>
+
+      <!-- Company Name -->
+      <h1>Dev Workshop Speaker Submission</h1>
+
+      <!-- Contains Links for Log In, Settings, and Sign Up -->
+      <div class="LogInOut-Container">
+
+        <span class="LogIn">Login</span><span class="LogOut">Logout</span> <span class="SignUp">Sign Up</span> <span class="settings"><i class="fa fa-cog"></i></span>
+
+      </div>
+
+    </header>
+
+    <!-- Content-Wrapper -->
+    <div class="Content-Wrapper">
+
+      <!-- Contains Welcome Information -->
+      <div class="Welcome">
+
+        <!-- Main Heading and Paragraph for Content -->
+        <h2>Welcome</h2>
+        <hr />
+        <p>Please Login.</p>
+
+      </div>
+
+    </div>
+
+    <!-- Modal for User Account Settings -->
+    <div class="SettingsModal">
+
+      <!-- Contains Settings Form -->
+      <form class="SettingsForm">
+
+        <!-- Heading for Settings Form -->
+        <h2>User Account Settings</h2>
+
+        <!-- Close Button -->
+        <span class="exitModal"><i class="fa fa-times-circle fa-2x"></i></span>
+
+        <hr />
+
+        <!-- Message for Settings Form -->
+        <p>Below is your current account information, if you would you like you can change it by clicking on the Edit Button.</p>
+
+        <!-- Username Label and Input Box -->
+        <label>Username:</label>
+        <input id="EditUName" type="text" placeholder="Username" readonly="true" />
+
+        <!-- Password Label and Input Box -->
+        <label>Password:</label>
+        <input id="EditPWord" type="text" placeholder="Password" readonly="true" />
+
+        <!-- FirstName Label and Input Box -->
+        <label>First Name:</label>
+        <input id="EditFName" type="text" placeholder="First Name" readonly="true" />
+
+        <!-- LastName Label and Input Box -->
+        <label>Last Name:</label>
+        <input id="EditLName" type="text" placeholder="Last Name" readonly="true" />
+
+        <!-- Edit Button -->
+        <input id="Edit" type="submit" value="Edit" />
+
+      </form>
+
+    </div>
+
+    <!-- Modal for Login  -->
+    <div class="LoginModal">
+
+      <!-- Contains Login Form -->
+      <form class="LogInForm">
+
+        <!-- Heading for Login Form -->
+        <h2>Log In</h2>
+
+        <!-- Close Button -->
+        <span class="exitModal"><i class="fa fa-times-circle fa-2x"></i></span>
+
+        <hr />
+
+        <!-- Message for Login Form -->
+        <p>Please enter your information and Login.</p>
+
+        <!-- Username Label and Input Box -->
+        <label>Username:</label>
+        <input id="UName" type="text" placeholder="Username" />
+
+        <!-- Password Label and Input Box -->
+        <label>Password:</label>
+        <input id="PWord" type="password" placeholder="Password" />
+
+        <!-- Submit Button for Login Form -->
+        <input id="LoginSubmit" type="submit" value="Log In" />
+
+      </form>
+
+    </div>
+
+    <!-- Links to JQuery -->
+    <script src="vendor/jquery.min.js"></script>
+
+    <!-- Links to SweetAlert -->
+    <script src="vendor/sweetalert.min.js"></script>
+
+    <!-- Links to "app.js" -->
+    <script src="js/app.js"></script>
+
+    <!-- Links to "service.js" -->
+    <script src="js/service.js"></script>
+
+  </body>
+
+</html>
