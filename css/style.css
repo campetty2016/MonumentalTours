@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li, form {
 
 /* Styles the Different Sections */
 section{
-    height: 100%;		
+    height: auto;		
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -156,7 +156,6 @@ section{
     /* Styles the Smaller Sections */
     .Smaller{
         background-color: aquamarine;
-	
         overflow: hidden;
 	border-top: 2px ridge #F2C185;
 	border-bottom: 2px ridge #F2C185
