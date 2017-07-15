@@ -149,6 +149,7 @@ section{
     section:nth-child(odd){
         background-color: #A60A0A;	
 	padding-top: 30px;
+	height: auto;
 	padding-bottom: 25px;    
     }
 
@@ -249,7 +250,7 @@ section{
 #ContactView{
 	padding-top: 30px;	
     	background-image: url('../img/Mt Rushmore2.jpg');
-	height: 100vh;
+	
 }
 
 	/* Styles Subheading for the Contact Section */			
