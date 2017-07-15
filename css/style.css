@@ -249,6 +249,7 @@ section{
 #ContactView{
 	padding-top: 30px;	
     	background-image: url('../img/Mt Rushmore2.jpg');
+	height: 100vw;
 	
 }
 
@@ -381,9 +382,11 @@ section{
 				color: #011640;
 			}
 	
-	
-	
-	
+@media screen and (max-width: 480px) {
+  #ContactView {
+    height: 100vh;	  
+  }
+}	
 
 
 
