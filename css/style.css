@@ -154,7 +154,6 @@ section{
 
     /* Styles the Smaller Sections */
     .Smaller{
-        height: 50%;
         background-color: aquamarine;
         overflow: hidden;
 	border-top: 2px ridge #F2C185;
