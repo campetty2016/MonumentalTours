@@ -16,9 +16,9 @@ html, body{
 
 /* Styles All the Text Heading Formats and Paragraphs  */
 h1, h2, h3, h4, h5, h6, p, ul, li, form {
-	padding-top: 15px;
-	font-family: 'Italianno', cursive;
-	letter-spacing: 1px;
+ padding-top: 15px;
+ font-family: 'Italianno', cursive;
+ letter-spacing: 1px;
 }
 
 /* Styles Content */
@@ -51,9 +51,9 @@ h1, h2, h3, h4, h5, h6, p, ul, li, form {
     background-color: #000000;
     height: 175px;
     width: 175px;
-	border: 2px groove #F2C185;
+    border: 2px groove #F2C185;
     border-radius: 125px;
-	margin: auto;
+    margin: auto;
 }
 
 /* Styles Captions of Monument Names */
@@ -148,7 +148,8 @@ section{
     /* Styles the Odd Numbered Sections */
     section:nth-child(odd){
         background-color: #A60A0A;	
-		padding-top: 30px;
+	padding-top: 30px;
+	padding-bottom: 25px;    
     }
 
     /* Styles the Smaller Sections */
@@ -156,20 +157,20 @@ section{
         height: 50%;
         background-color: aquamarine;
         overflow: hidden;
-		border-top: 2px ridge #F2C185;
-		border-bottom: 2px ridge #F2C185
+	border-top: 2px ridge #F2C185;
+	border-bottom: 2px ridge #F2C185
     }
 
     /* Styles the Home Section */
     #HomeView{
         background-image: url('../img/Cloud.jpg');
 	height: 100%;    
-		display: flex;
-		display: -webkit-flex;
-		display: -moz-flex;
-		display: -ms-flex;
-		align-items:center;
-		justify-content: center;
+	display: flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	align-items:center;
+	justify-content: center;
     }
 	
 	/* Styles Slogan and Section Headings */
@@ -206,7 +207,7 @@ section{
 #DestinationsView{
     padding-top: 30px;	
     background-image: url('../img/Grand Canyon.jpg');
-	overflow: hidden;
+    overflow: hidden;
 }
 
 	/* Styles Subheading for the Destinations Section */
@@ -248,7 +249,8 @@ section{
 /* Styles the Contact Section */
 #ContactView{
 	padding-top: 30px;	
-    background-image: url('../img/Mt Rushmore2.jpg');
+    	background-image: url('../img/Mt Rushmore2.jpg');
+	height: 100%;
 }
 
 	/* Styles Subheading for the Contact Section */			
