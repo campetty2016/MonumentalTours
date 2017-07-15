@@ -248,7 +248,7 @@ section{
 #ContactView{
 	padding-top: 30px;	
     	background-image: url('../img/Mt Rushmore2.jpg');
-	height: 100%;
+	height: 100vh;
 }
 
 	/* Styles Subheading for the Contact Section */			
